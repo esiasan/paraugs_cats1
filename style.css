@@ -1,0 +1,17 @@
+body{
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2023/03/trippy-aesthetics-wallpaper.jpg);
+}
+.pamatlaukums{
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(22, 21, 24);
+    padding: 10px;
+    margin: auto;
+}
+.catazina{
+    background-color: blueviolet;
+    height: 430px;
+    padding: 10px;
+    margin: auto;
+}
