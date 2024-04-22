@@ -1,8 +1,15 @@
 //console.log(1)
-function sutitzinu()
+let zina = document.querySelector('.zina').value;
+let zinas = documet.querySelector('.cataZina');
+
+function sutitZinu()
 {
     console.log('sutitzinu()darbojas');
-    let zina = document.querySelector('zina').value;
-    let zinas = documet.querySelector('catazina');
-    zinas.innerHTML = zinas.innerHTML+ '<br>'zina.value;
+   
+    zinas.innerHTML = zinas.innerHTML+'<br>'+zina.value;
+}
+function ieladetcataZinas()
+{
+let datiNoServera= await fetch('cataZinas.txt');
+let dati =await datiNoServera.text;
 }
